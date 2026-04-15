@@ -194,14 +194,18 @@ button:hover{
 	}
 	nav{
 		display:flex !important;
+		flex-direction: column !important;
 		gap:10px !important;
-		align-items:center !important;
+		align-items:stretch !important;
 		padding:15px 0 !important;
 	}
 	
 	nav a{
 		width:100% !important;
 		text-align:center !important;
+		display:block;
+		padding: 10px 0 !important;
+        box-sizing: border-box !important
 		
 	}
 	
